@@ -1,0 +1,398 @@
+\hypertarget{classce103__hw4__medical__store__lib_1_1_bill}{}\doxysubsection{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill Class Reference}
+\label{classce103__hw4__medical__store__lib_1_1_bill}\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_acdfab82988088b07d315ce63a2fe2499}{get\+Billno}} ()
+\item 
+void \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a9254b9247b71a1be4f099339f9b069c6}{set\+Billno}} (String Billno)
+\item 
+int \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_ad4dc080d778208c5b61054b073792ac8}{getid}} ()
+\item 
+void \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a4a296ebd628a39b591692476ddec3ff8}{setid}} (int id)
+\item 
+String \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a73f0f7f314bab17df333b341eee04ff4}{getmedicinename}} ()
+\item 
+void \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a4eb4b2f3bc93ab7198e8e6c0f3f0b5f2}{setmedicinename}} (String medicinename)
+\item 
+String \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a823b3d5a6d05d1d08c901bf7b498b04f}{getcustomername}} ()
+\item 
+void \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_ad341ccdd4cff9f71690f06c0b0873978}{setcustomername}} (String customername)
+\item 
+String \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_ac08e5ee72682adc54b6b468205e3b707}{getquantity}} ()
+\item 
+void \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_ad69c0061400105718d5383685876749c}{setquantity}} (String quantity)
+\item 
+int \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_aceb12298852c3bc160a3c38cdff7aa3e}{getrate}} ()
+\item 
+void \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_acb8bffe86f6438b5bd45427f18aae716}{setrate}} (int rate)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a753d011f72f8ece18f9b7adb0789f4e6}{book\+To\+Byte\+Array\+Block}} (\mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill}{Bill}} book)
+\item 
+static \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill}{Bill}} \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a78ba04afe71387857fefa66b8ce578ff}{byte\+Array\+Block\+To\+Book}} (byte\mbox{[}$\,$\mbox{]} byte\+Array)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a4443264af00534349365db8f8ec34113}{BILLNO\+\_\+\+MAX\+\_\+\+LENGTH}} = 4
+\item 
+static final int \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a777bfee4ee3724181bd7bacf174aa021}{ID\+\_\+\+MAX\+\_\+\+LENGTH}} = 9
+\item 
+static final int \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_ac2abbbde72a54e6a20f862681a762452}{CUSTOMERNAME\+\_\+\+MAX\+\_\+\+LENGTH}} = 25
+\item 
+static final int \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a0d946be1d43ff0cf65e6851c5c6d9505}{MEDICINENAME\+\_\+\+MAX\+\_\+\+LENGTH}} = 25
+\item 
+static final int \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_abda7f6e7282db2a5c2ee9110984e9503}{QUANTITY\+\_\+\+MAX\+\_\+\+LENGTH}} = 9
+\item 
+static final int \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_ace21285de0e77e7e421b0bf8fc2d35a1}{RATE\+\_\+\+MAX\+\_\+\+LENGTH}} = 9
+\item 
+static final int \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_aa1690637d7cd12133384466af183fac0}{Bill\+\_\+\+DATA\+\_\+\+BLOCK\+\_\+\+SIZE}} = \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a4443264af00534349365db8f8ec34113}{BILLNO\+\_\+\+MAX\+\_\+\+LENGTH}} + \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_ac2abbbde72a54e6a20f862681a762452}{CUSTOMERNAME\+\_\+\+MAX\+\_\+\+LENGTH}} + \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a0d946be1d43ff0cf65e6851c5c6d9505}{MEDICINENAME\+\_\+\+MAX\+\_\+\+LENGTH}} + \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_abda7f6e7282db2a5c2ee9110984e9503}{QUANTITY\+\_\+\+MAX\+\_\+\+LENGTH}} + \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_ace21285de0e77e7e421b0bf8fc2d35a1}{RATE\+\_\+\+MAX\+\_\+\+LENGTH}} + \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a777bfee4ee3724181bd7bacf174aa021}{ID\+\_\+\+MAX\+\_\+\+LENGTH}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Member Function Documentation}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_a753d011f72f8ece18f9b7adb0789f4e6}\label{classce103__hw4__medical__store__lib_1_1_bill_a753d011f72f8ece18f9b7adb0789f4e6}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!bookToByteArrayBlock@{bookToByteArrayBlock}}
+\index{bookToByteArrayBlock@{bookToByteArrayBlock}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{bookToByteArrayBlock()}{bookToByteArrayBlock()}}
+{\footnotesize\ttfamily static byte\mbox{[}$\,$\mbox{]} ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+book\+To\+Byte\+Array\+Block (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill}{Bill}}}]{book }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+References \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_aa1690637d7cd12133384466af183fac0}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+Bill\+\_\+\+DATA\+\_\+\+BLOCK\+\_\+\+SIZE}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a4443264af00534349365db8f8ec34113}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+BILLNO\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_ac2abbbde72a54e6a20f862681a762452}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+CUSTOMERNAME\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_acdfab82988088b07d315ce63a2fe2499}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+get\+Billno()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a823b3d5a6d05d1d08c901bf7b498b04f}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+getcustomername()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_ad4dc080d778208c5b61054b073792ac8}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+getid()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a73f0f7f314bab17df333b341eee04ff4}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+getmedicinename()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_ac08e5ee72682adc54b6b468205e3b707}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+getquantity()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_aceb12298852c3bc160a3c38cdff7aa3e}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+getrate()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a777bfee4ee3724181bd7bacf174aa021}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+ID\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_conversion_utility_a8e0f93579075d0a1b0800e05bbcd66af}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Conversion\+Utility.\+integer\+To\+Byte\+Array()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a0d946be1d43ff0cf65e6851c5c6d9505}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+MEDICINENAME\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_abda7f6e7282db2a5c2ee9110984e9503}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+QUANTITY\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_ace21285de0e77e7e421b0bf8fc2d35a1}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+RATE\+\_\+\+MAX\+\_\+\+LENGTH}}, and \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_conversion_utility_ab0ff4b89697d8bd6cc3b3a1141a86e3d}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Conversion\+Utility.\+string\+To\+Byte\+Array()}}.
+
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__app_1_1_insider_of_the_menu_a06e911654aeebf8dcb003c0bec404f3d}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+app.\+Insider\+Of\+The\+Menu.\+salemedicine()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_bill_a753d011f72f8ece18f9b7adb0789f4e6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_bill_a753d011f72f8ece18f9b7adb0789f4e6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_a78ba04afe71387857fefa66b8ce578ff}\label{classce103__hw4__medical__store__lib_1_1_bill_a78ba04afe71387857fefa66b8ce578ff}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!byteArrayBlockToBook@{byteArrayBlockToBook}}
+\index{byteArrayBlockToBook@{byteArrayBlockToBook}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{byteArrayBlockToBook()}{byteArrayBlockToBook()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill}{Bill}} ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+byte\+Array\+Block\+To\+Book (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{byte\+Array }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+References \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_aa1690637d7cd12133384466af183fac0}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+Bill\+\_\+\+DATA\+\_\+\+BLOCK\+\_\+\+SIZE}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a4443264af00534349365db8f8ec34113}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+BILLNO\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_conversion_utility_a73bfc22165c4d39e288482818b96f6a1}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Conversion\+Utility.\+byte\+Array\+To\+Integer()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_conversion_utility_a202f8f242fa0c940170289cb2b08b1f7}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Conversion\+Utility.\+byte\+Array\+To\+String()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_ac2abbbde72a54e6a20f862681a762452}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+CUSTOMERNAME\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a777bfee4ee3724181bd7bacf174aa021}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+ID\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a0d946be1d43ff0cf65e6851c5c6d9505}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+MEDICINENAME\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_abda7f6e7282db2a5c2ee9110984e9503}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+QUANTITY\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_ace21285de0e77e7e421b0bf8fc2d35a1}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+RATE\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a9254b9247b71a1be4f099339f9b069c6}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+set\+Billno()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_ad341ccdd4cff9f71690f06c0b0873978}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+setcustomername()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a4a296ebd628a39b591692476ddec3ff8}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+setid()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a4eb4b2f3bc93ab7198e8e6c0f3f0b5f2}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+setmedicinename()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_ad69c0061400105718d5383685876749c}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+setquantity()}}, and \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_acb8bffe86f6438b5bd45427f18aae716}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+setrate()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_bill_a78ba04afe71387857fefa66b8ce578ff_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_acdfab82988088b07d315ce63a2fe2499}\label{classce103__hw4__medical__store__lib_1_1_bill_acdfab82988088b07d315ce63a2fe2499}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!getBillno@{getBillno}}
+\index{getBillno@{getBillno}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{getBillno()}{getBillno()}}
+{\footnotesize\ttfamily String ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+get\+Billno (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a753d011f72f8ece18f9b7adb0789f4e6}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+book\+To\+Byte\+Array\+Block()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_bill_acdfab82988088b07d315ce63a2fe2499_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_a823b3d5a6d05d1d08c901bf7b498b04f}\label{classce103__hw4__medical__store__lib_1_1_bill_a823b3d5a6d05d1d08c901bf7b498b04f}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!getcustomername@{getcustomername}}
+\index{getcustomername@{getcustomername}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{getcustomername()}{getcustomername()}}
+{\footnotesize\ttfamily String ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+getcustomername (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a753d011f72f8ece18f9b7adb0789f4e6}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+book\+To\+Byte\+Array\+Block()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_bill_a823b3d5a6d05d1d08c901bf7b498b04f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_ad4dc080d778208c5b61054b073792ac8}\label{classce103__hw4__medical__store__lib_1_1_bill_ad4dc080d778208c5b61054b073792ac8}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!getid@{getid}}
+\index{getid@{getid}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{getid()}{getid()}}
+{\footnotesize\ttfamily int ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+getid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a753d011f72f8ece18f9b7adb0789f4e6}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+book\+To\+Byte\+Array\+Block()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_bill_ad4dc080d778208c5b61054b073792ac8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_a73f0f7f314bab17df333b341eee04ff4}\label{classce103__hw4__medical__store__lib_1_1_bill_a73f0f7f314bab17df333b341eee04ff4}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!getmedicinename@{getmedicinename}}
+\index{getmedicinename@{getmedicinename}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{getmedicinename()}{getmedicinename()}}
+{\footnotesize\ttfamily String ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+getmedicinename (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a753d011f72f8ece18f9b7adb0789f4e6}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+book\+To\+Byte\+Array\+Block()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_bill_a73f0f7f314bab17df333b341eee04ff4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_ac08e5ee72682adc54b6b468205e3b707}\label{classce103__hw4__medical__store__lib_1_1_bill_ac08e5ee72682adc54b6b468205e3b707}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!getquantity@{getquantity}}
+\index{getquantity@{getquantity}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{getquantity()}{getquantity()}}
+{\footnotesize\ttfamily String ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+getquantity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a753d011f72f8ece18f9b7adb0789f4e6}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+book\+To\+Byte\+Array\+Block()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_bill_ac08e5ee72682adc54b6b468205e3b707_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_aceb12298852c3bc160a3c38cdff7aa3e}\label{classce103__hw4__medical__store__lib_1_1_bill_aceb12298852c3bc160a3c38cdff7aa3e}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!getrate@{getrate}}
+\index{getrate@{getrate}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{getrate()}{getrate()}}
+{\footnotesize\ttfamily int ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+getrate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a753d011f72f8ece18f9b7adb0789f4e6}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+book\+To\+Byte\+Array\+Block()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_bill_aceb12298852c3bc160a3c38cdff7aa3e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_a9254b9247b71a1be4f099339f9b069c6}\label{classce103__hw4__medical__store__lib_1_1_bill_a9254b9247b71a1be4f099339f9b069c6}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!setBillno@{setBillno}}
+\index{setBillno@{setBillno}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{setBillno()}{setBillno()}}
+{\footnotesize\ttfamily void ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+set\+Billno (\begin{DoxyParamCaption}\item[{String}]{Billno }\end{DoxyParamCaption})}
+
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a78ba04afe71387857fefa66b8ce578ff}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+byte\+Array\+Block\+To\+Book()}}, and \mbox{\hyperlink{classce103__hw4__medical__store__app_1_1_insider_of_the_menu_a06e911654aeebf8dcb003c0bec404f3d}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+app.\+Insider\+Of\+The\+Menu.\+salemedicine()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_bill_a9254b9247b71a1be4f099339f9b069c6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_ad341ccdd4cff9f71690f06c0b0873978}\label{classce103__hw4__medical__store__lib_1_1_bill_ad341ccdd4cff9f71690f06c0b0873978}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!setcustomername@{setcustomername}}
+\index{setcustomername@{setcustomername}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{setcustomername()}{setcustomername()}}
+{\footnotesize\ttfamily void ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+setcustomername (\begin{DoxyParamCaption}\item[{String}]{customername }\end{DoxyParamCaption})}
+
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a78ba04afe71387857fefa66b8ce578ff}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+byte\+Array\+Block\+To\+Book()}}, and \mbox{\hyperlink{classce103__hw4__medical__store__app_1_1_insider_of_the_menu_a06e911654aeebf8dcb003c0bec404f3d}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+app.\+Insider\+Of\+The\+Menu.\+salemedicine()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_bill_ad341ccdd4cff9f71690f06c0b0873978_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_a4a296ebd628a39b591692476ddec3ff8}\label{classce103__hw4__medical__store__lib_1_1_bill_a4a296ebd628a39b591692476ddec3ff8}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!setid@{setid}}
+\index{setid@{setid}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{setid()}{setid()}}
+{\footnotesize\ttfamily void ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+setid (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a78ba04afe71387857fefa66b8ce578ff}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+byte\+Array\+Block\+To\+Book()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_bill_a4a296ebd628a39b591692476ddec3ff8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_a4eb4b2f3bc93ab7198e8e6c0f3f0b5f2}\label{classce103__hw4__medical__store__lib_1_1_bill_a4eb4b2f3bc93ab7198e8e6c0f3f0b5f2}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!setmedicinename@{setmedicinename}}
+\index{setmedicinename@{setmedicinename}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{setmedicinename()}{setmedicinename()}}
+{\footnotesize\ttfamily void ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+setmedicinename (\begin{DoxyParamCaption}\item[{String}]{medicinename }\end{DoxyParamCaption})}
+
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a78ba04afe71387857fefa66b8ce578ff}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+byte\+Array\+Block\+To\+Book()}}, and \mbox{\hyperlink{classce103__hw4__medical__store__app_1_1_insider_of_the_menu_a06e911654aeebf8dcb003c0bec404f3d}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+app.\+Insider\+Of\+The\+Menu.\+salemedicine()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_bill_a4eb4b2f3bc93ab7198e8e6c0f3f0b5f2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_ad69c0061400105718d5383685876749c}\label{classce103__hw4__medical__store__lib_1_1_bill_ad69c0061400105718d5383685876749c}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!setquantity@{setquantity}}
+\index{setquantity@{setquantity}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{setquantity()}{setquantity()}}
+{\footnotesize\ttfamily void ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+setquantity (\begin{DoxyParamCaption}\item[{String}]{quantity }\end{DoxyParamCaption})}
+
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a78ba04afe71387857fefa66b8ce578ff}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+byte\+Array\+Block\+To\+Book()}}, and \mbox{\hyperlink{classce103__hw4__medical__store__app_1_1_insider_of_the_menu_a06e911654aeebf8dcb003c0bec404f3d}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+app.\+Insider\+Of\+The\+Menu.\+salemedicine()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_bill_ad69c0061400105718d5383685876749c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_acb8bffe86f6438b5bd45427f18aae716}\label{classce103__hw4__medical__store__lib_1_1_bill_acb8bffe86f6438b5bd45427f18aae716}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!setrate@{setrate}}
+\index{setrate@{setrate}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{setrate()}{setrate()}}
+{\footnotesize\ttfamily void ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+setrate (\begin{DoxyParamCaption}\item[{int}]{rate }\end{DoxyParamCaption})}
+
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a78ba04afe71387857fefa66b8ce578ff}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+byte\+Array\+Block\+To\+Book()}}, and \mbox{\hyperlink{classce103__hw4__medical__store__app_1_1_insider_of_the_menu_a06e911654aeebf8dcb003c0bec404f3d}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+app.\+Insider\+Of\+The\+Menu.\+salemedicine()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_bill_acb8bffe86f6438b5bd45427f18aae716_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsubsection{Member Data Documentation}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_aa1690637d7cd12133384466af183fac0}\label{classce103__hw4__medical__store__lib_1_1_bill_aa1690637d7cd12133384466af183fac0}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!Bill\_DATA\_BLOCK\_SIZE@{Bill\_DATA\_BLOCK\_SIZE}}
+\index{Bill\_DATA\_BLOCK\_SIZE@{Bill\_DATA\_BLOCK\_SIZE}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{Bill\_DATA\_BLOCK\_SIZE}{Bill\_DATA\_BLOCK\_SIZE}}
+{\footnotesize\ttfamily final int ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+Bill\+\_\+\+DATA\+\_\+\+BLOCK\+\_\+\+SIZE = \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a4443264af00534349365db8f8ec34113}{BILLNO\+\_\+\+MAX\+\_\+\+LENGTH}} + \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_ac2abbbde72a54e6a20f862681a762452}{CUSTOMERNAME\+\_\+\+MAX\+\_\+\+LENGTH}} + \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a0d946be1d43ff0cf65e6851c5c6d9505}{MEDICINENAME\+\_\+\+MAX\+\_\+\+LENGTH}} + \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_abda7f6e7282db2a5c2ee9110984e9503}{QUANTITY\+\_\+\+MAX\+\_\+\+LENGTH}} + \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_ace21285de0e77e7e421b0bf8fc2d35a1}{RATE\+\_\+\+MAX\+\_\+\+LENGTH}} + \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a777bfee4ee3724181bd7bacf174aa021}{ID\+\_\+\+MAX\+\_\+\+LENGTH}}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a753d011f72f8ece18f9b7adb0789f4e6}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+book\+To\+Byte\+Array\+Block()}}, and \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a78ba04afe71387857fefa66b8ce578ff}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+byte\+Array\+Block\+To\+Book()}}.
+
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_a4443264af00534349365db8f8ec34113}\label{classce103__hw4__medical__store__lib_1_1_bill_a4443264af00534349365db8f8ec34113}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!BILLNO\_MAX\_LENGTH@{BILLNO\_MAX\_LENGTH}}
+\index{BILLNO\_MAX\_LENGTH@{BILLNO\_MAX\_LENGTH}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{BILLNO\_MAX\_LENGTH}{BILLNO\_MAX\_LENGTH}}
+{\footnotesize\ttfamily final int ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+BILLNO\+\_\+\+MAX\+\_\+\+LENGTH = 4\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a753d011f72f8ece18f9b7adb0789f4e6}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+book\+To\+Byte\+Array\+Block()}}, and \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a78ba04afe71387857fefa66b8ce578ff}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+byte\+Array\+Block\+To\+Book()}}.
+
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_ac2abbbde72a54e6a20f862681a762452}\label{classce103__hw4__medical__store__lib_1_1_bill_ac2abbbde72a54e6a20f862681a762452}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!CUSTOMERNAME\_MAX\_LENGTH@{CUSTOMERNAME\_MAX\_LENGTH}}
+\index{CUSTOMERNAME\_MAX\_LENGTH@{CUSTOMERNAME\_MAX\_LENGTH}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{CUSTOMERNAME\_MAX\_LENGTH}{CUSTOMERNAME\_MAX\_LENGTH}}
+{\footnotesize\ttfamily final int ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+CUSTOMERNAME\+\_\+\+MAX\+\_\+\+LENGTH = 25\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a753d011f72f8ece18f9b7adb0789f4e6}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+book\+To\+Byte\+Array\+Block()}}, and \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a78ba04afe71387857fefa66b8ce578ff}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+byte\+Array\+Block\+To\+Book()}}.
+
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_a777bfee4ee3724181bd7bacf174aa021}\label{classce103__hw4__medical__store__lib_1_1_bill_a777bfee4ee3724181bd7bacf174aa021}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!ID\_MAX\_LENGTH@{ID\_MAX\_LENGTH}}
+\index{ID\_MAX\_LENGTH@{ID\_MAX\_LENGTH}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{ID\_MAX\_LENGTH}{ID\_MAX\_LENGTH}}
+{\footnotesize\ttfamily final int ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+ID\+\_\+\+MAX\+\_\+\+LENGTH = 9\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a753d011f72f8ece18f9b7adb0789f4e6}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+book\+To\+Byte\+Array\+Block()}}, and \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a78ba04afe71387857fefa66b8ce578ff}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+byte\+Array\+Block\+To\+Book()}}.
+
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_a0d946be1d43ff0cf65e6851c5c6d9505}\label{classce103__hw4__medical__store__lib_1_1_bill_a0d946be1d43ff0cf65e6851c5c6d9505}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!MEDICINENAME\_MAX\_LENGTH@{MEDICINENAME\_MAX\_LENGTH}}
+\index{MEDICINENAME\_MAX\_LENGTH@{MEDICINENAME\_MAX\_LENGTH}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{MEDICINENAME\_MAX\_LENGTH}{MEDICINENAME\_MAX\_LENGTH}}
+{\footnotesize\ttfamily final int ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+MEDICINENAME\+\_\+\+MAX\+\_\+\+LENGTH = 25\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a753d011f72f8ece18f9b7adb0789f4e6}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+book\+To\+Byte\+Array\+Block()}}, and \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a78ba04afe71387857fefa66b8ce578ff}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+byte\+Array\+Block\+To\+Book()}}.
+
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_abda7f6e7282db2a5c2ee9110984e9503}\label{classce103__hw4__medical__store__lib_1_1_bill_abda7f6e7282db2a5c2ee9110984e9503}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!QUANTITY\_MAX\_LENGTH@{QUANTITY\_MAX\_LENGTH}}
+\index{QUANTITY\_MAX\_LENGTH@{QUANTITY\_MAX\_LENGTH}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{QUANTITY\_MAX\_LENGTH}{QUANTITY\_MAX\_LENGTH}}
+{\footnotesize\ttfamily final int ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+QUANTITY\+\_\+\+MAX\+\_\+\+LENGTH = 9\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a753d011f72f8ece18f9b7adb0789f4e6}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+book\+To\+Byte\+Array\+Block()}}, and \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a78ba04afe71387857fefa66b8ce578ff}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+byte\+Array\+Block\+To\+Book()}}.
+
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_bill_ace21285de0e77e7e421b0bf8fc2d35a1}\label{classce103__hw4__medical__store__lib_1_1_bill_ace21285de0e77e7e421b0bf8fc2d35a1}} 
+\index{ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}!RATE\_MAX\_LENGTH@{RATE\_MAX\_LENGTH}}
+\index{RATE\_MAX\_LENGTH@{RATE\_MAX\_LENGTH}!ce103\_hw4\_medical\_store\_lib.Bill@{ce103\_hw4\_medical\_store\_lib.Bill}}
+\doxyparagraph{\texorpdfstring{RATE\_MAX\_LENGTH}{RATE\_MAX\_LENGTH}}
+{\footnotesize\ttfamily final int ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+RATE\+\_\+\+MAX\+\_\+\+LENGTH = 9\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a753d011f72f8ece18f9b7adb0789f4e6}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+book\+To\+Byte\+Array\+Block()}}, and \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a78ba04afe71387857fefa66b8ce578ff}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+byte\+Array\+Block\+To\+Book()}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_bill_8java}{Bill.\+java}}\end{DoxyCompactItemize}

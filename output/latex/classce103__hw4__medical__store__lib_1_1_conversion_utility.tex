@@ -1,0 +1,303 @@
+\hypertarget{classce103__hw4__medical__store__lib_1_1_conversion_utility}{}\doxysubsection{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Conversion\+Utility Class Reference}
+\label{classce103__hw4__medical__store__lib_1_1_conversion_utility}\index{ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_conversion_utility_a2dca509fcb65ae54b90e0d235d29764f}{to\+Byte}} (String hex\+String)
+\item 
+static String \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_conversion_utility_a4c601b0965c9d01ba331da898316f372}{to\+Hex}} (byte\mbox{[}$\,$\mbox{]} arr)
+\item 
+static boolean \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_conversion_utility_a680cc8121a838814f3edc6d8a3b77ce4}{is\+Hex}} (String str)
+\item 
+static Byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_conversion_utility_a27d9fa6416a1f6e1591d89606f414613}{to\+Byte\+Array}} (String hex\+String)
+\item 
+static int \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_conversion_utility_aa1041a7297eb8de8b960369e9c152c69}{get\+Int}} (byte\mbox{[}$\,$\mbox{]} data, int offset, int length)
+\item 
+static String \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_conversion_utility_a8bd24b999f7e26107c34ebd6bb93ee17}{to\+Ascii}} (String hex\+String)
+\item 
+static int \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_conversion_utility_a73bfc22165c4d39e288482818b96f6a1}{byte\+Array\+To\+Integer}} (byte\mbox{[}$\,$\mbox{]} byte\+Array)
+\item 
+static byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_conversion_utility_a8e0f93579075d0a1b0800e05bbcd66af}{integer\+To\+Byte\+Array}} (int value)
+\item 
+static byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_conversion_utility_aadac23ee9d8f69569ae2d06a7536b022}{string\+List\+To\+Byte\+Array}} (List$<$ String $>$ array, int item\+Max\+Count, int item\+Max\+Length)
+\item 
+static List$<$ String $>$ \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_conversion_utility_a13223badde57e628bd9348762f2b2ab5}{byte\+Array\+To\+String\+List}} (byte\mbox{[}$\,$\mbox{]} byte\+Array, int item\+Max\+Count, int item\+Max\+Length)
+\item 
+static byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_conversion_utility_ab0ff4b89697d8bd6cc3b3a1141a86e3d}{string\+To\+Byte\+Array}} (String data)
+\item 
+static String \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_conversion_utility_a202f8f242fa0c940170289cb2b08b1f7}{byte\+Array\+To\+String}} (byte\mbox{[}$\,$\mbox{]} byte\+Array)
+\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Member Function Documentation}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_conversion_utility_a73bfc22165c4d39e288482818b96f6a1}\label{classce103__hw4__medical__store__lib_1_1_conversion_utility_a73bfc22165c4d39e288482818b96f6a1}} 
+\index{ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}!byteArrayToInteger@{byteArrayToInteger}}
+\index{byteArrayToInteger@{byteArrayToInteger}!ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}}
+\doxyparagraph{\texorpdfstring{byteArrayToInteger()}{byteArrayToInteger()}}
+{\footnotesize\ttfamily static int ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Conversion\+Utility.\+byte\+Array\+To\+Integer (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{byte\+Array }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Converts a byte array to an integer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em byte\+Array} & The byte array to convert. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The integer value stored in the byte array. 
+\end{DoxyReturn}
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a78ba04afe71387857fefa66b8ce578ff}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+byte\+Array\+Block\+To\+Book()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_customer_ae766307af9c3831757bb80b0c8adc4da}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Customer.\+Byte\+Array\+Block\+To\+Customer()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_medicine_a139a6e9d94edbac2790895a083f11813}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Medicine.\+Byte\+Array\+Block\+To\+Medicine()}}, and \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_supplier_abad3a97eeb6c990ec1fb06b41739e576}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Supplier.\+byte\+Array\+Block\+To\+Supplier()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_conversion_utility_a73bfc22165c4d39e288482818b96f6a1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_conversion_utility_a202f8f242fa0c940170289cb2b08b1f7}\label{classce103__hw4__medical__store__lib_1_1_conversion_utility_a202f8f242fa0c940170289cb2b08b1f7}} 
+\index{ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}!byteArrayToString@{byteArrayToString}}
+\index{byteArrayToString@{byteArrayToString}!ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}}
+\doxyparagraph{\texorpdfstring{byteArrayToString()}{byteArrayToString()}}
+{\footnotesize\ttfamily static String ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Conversion\+Utility.\+byte\+Array\+To\+String (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{byte\+Array }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Converts a byte array to a string.
+
+
+\begin{DoxyParams}{Parameters}
+{\em byte\+Array} & The byte array to convert. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The string stored in the byte array. 
+\end{DoxyReturn}
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a78ba04afe71387857fefa66b8ce578ff}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+byte\+Array\+Block\+To\+Book()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_customer_ae766307af9c3831757bb80b0c8adc4da}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Customer.\+Byte\+Array\+Block\+To\+Customer()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_medicine_a139a6e9d94edbac2790895a083f11813}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Medicine.\+Byte\+Array\+Block\+To\+Medicine()}}, and \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_supplier_abad3a97eeb6c990ec1fb06b41739e576}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Supplier.\+byte\+Array\+Block\+To\+Supplier()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_conversion_utility_a202f8f242fa0c940170289cb2b08b1f7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_conversion_utility_a13223badde57e628bd9348762f2b2ab5}\label{classce103__hw4__medical__store__lib_1_1_conversion_utility_a13223badde57e628bd9348762f2b2ab5}} 
+\index{ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}!byteArrayToStringList@{byteArrayToStringList}}
+\index{byteArrayToStringList@{byteArrayToStringList}!ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}}
+\doxyparagraph{\texorpdfstring{byteArrayToStringList()}{byteArrayToStringList()}}
+{\footnotesize\ttfamily static List$<$ String $>$ ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Conversion\+Utility.\+byte\+Array\+To\+String\+List (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{byte\+Array,  }\item[{int}]{item\+Max\+Count,  }\item[{int}]{item\+Max\+Length }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Converts a byte array to a list of strings.
+
+
+\begin{DoxyParams}{Parameters}
+{\em byte\+Array} & The byte array to convert. \\
+\hline
+{\em item\+Max\+Count} & The maximum number of items in the list. \\
+\hline
+{\em item\+Max\+Length} & The maximum length of each item in the list. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The list of strings stored in the byte array. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_conversion_utility_aa1041a7297eb8de8b960369e9c152c69}\label{classce103__hw4__medical__store__lib_1_1_conversion_utility_aa1041a7297eb8de8b960369e9c152c69}} 
+\index{ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}!getInt@{getInt}}
+\index{getInt@{getInt}!ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}}
+\doxyparagraph{\texorpdfstring{getInt()}{getInt()}}
+{\footnotesize\ttfamily static int ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Conversion\+Utility.\+get\+Int (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{data,  }\item[{int}]{offset,  }\item[{int}]{length }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Extracts an integer value from an array of bytes. 
+\begin{DoxyParams}{Parameters}
+{\em data} & The array of bytes from which to extract the integer value. \\
+\hline
+{\em offset} & The starting position in the array from which to extract the integer value. \\
+\hline
+{\em length} & The number of bytes to use in the extraction. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The integer value extracted from the array of bytes. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_conversion_utility_a8e0f93579075d0a1b0800e05bbcd66af}\label{classce103__hw4__medical__store__lib_1_1_conversion_utility_a8e0f93579075d0a1b0800e05bbcd66af}} 
+\index{ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}!integerToByteArray@{integerToByteArray}}
+\index{integerToByteArray@{integerToByteArray}!ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}}
+\doxyparagraph{\texorpdfstring{integerToByteArray()}{integerToByteArray()}}
+{\footnotesize\ttfamily static byte\mbox{[}$\,$\mbox{]} ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Conversion\+Utility.\+integer\+To\+Byte\+Array (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Converts an integer to a byte array.
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The integer value to convert. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The byte array representation of the integer. 
+\end{DoxyReturn}
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a753d011f72f8ece18f9b7adb0789f4e6}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+book\+To\+Byte\+Array\+Block()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_customer_a292a7e3602e9d85c119d14af8ba29090}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Customer.\+customer\+To\+Byte\+Array\+Block()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_medicine_a6046b568ddbacc606799c55c34c93584}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Medicine.\+medicine\+To\+Byte\+Array\+Block()}}, and \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_supplier_afba177fb9d808aa5157203709401032e}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Supplier.\+supplier\+To\+Byte\+Array\+Block()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_conversion_utility_a8e0f93579075d0a1b0800e05bbcd66af_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_conversion_utility_a680cc8121a838814f3edc6d8a3b77ce4}\label{classce103__hw4__medical__store__lib_1_1_conversion_utility_a680cc8121a838814f3edc6d8a3b77ce4}} 
+\index{ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}!isHex@{isHex}}
+\index{isHex@{isHex}!ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}}
+\doxyparagraph{\texorpdfstring{isHex()}{isHex()}}
+{\footnotesize\ttfamily static boolean ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Conversion\+Utility.\+is\+Hex (\begin{DoxyParamCaption}\item[{String}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determines whether a string consists only of hexadecimal digits. 
+\begin{DoxyParams}{Parameters}
+{\em str} & The string to be checked. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the string consists only of hexadecimal digits, {\ttfamily false} otherwise. 
+\end{DoxyReturn}
+
+
+References \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_conversion_utility_a27d9fa6416a1f6e1591d89606f414613}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Conversion\+Utility.\+to\+Byte\+Array()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_conversion_utility_a680cc8121a838814f3edc6d8a3b77ce4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_conversion_utility_aadac23ee9d8f69569ae2d06a7536b022}\label{classce103__hw4__medical__store__lib_1_1_conversion_utility_aadac23ee9d8f69569ae2d06a7536b022}} 
+\index{ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}!stringListToByteArray@{stringListToByteArray}}
+\index{stringListToByteArray@{stringListToByteArray}!ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}}
+\doxyparagraph{\texorpdfstring{stringListToByteArray()}{stringListToByteArray()}}
+{\footnotesize\ttfamily static byte\mbox{[}$\,$\mbox{]} ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Conversion\+Utility.\+string\+List\+To\+Byte\+Array (\begin{DoxyParamCaption}\item[{List$<$ String $>$}]{array,  }\item[{int}]{item\+Max\+Count,  }\item[{int}]{item\+Max\+Length }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Converts a list of strings to a byte array.
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & The list of strings to convert. \\
+\hline
+{\em item\+Max\+Count} & The maximum number of items in the list. \\
+\hline
+{\em item\+Max\+Length} & The maximum length of each item in the list. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The byte array representation of the list of strings. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_conversion_utility_ab0ff4b89697d8bd6cc3b3a1141a86e3d}\label{classce103__hw4__medical__store__lib_1_1_conversion_utility_ab0ff4b89697d8bd6cc3b3a1141a86e3d}} 
+\index{ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}!stringToByteArray@{stringToByteArray}}
+\index{stringToByteArray@{stringToByteArray}!ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}}
+\doxyparagraph{\texorpdfstring{stringToByteArray()}{stringToByteArray()}}
+{\footnotesize\ttfamily static byte\mbox{[}$\,$\mbox{]} ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Conversion\+Utility.\+string\+To\+Byte\+Array (\begin{DoxyParamCaption}\item[{String}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Converts a string to a byte array.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & The string to convert. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The byte array representation of the string. 
+\end{DoxyReturn}
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_bill_a753d011f72f8ece18f9b7adb0789f4e6}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Bill.\+book\+To\+Byte\+Array\+Block()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_customer_a292a7e3602e9d85c119d14af8ba29090}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Customer.\+customer\+To\+Byte\+Array\+Block()}}, \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_medicine_a6046b568ddbacc606799c55c34c93584}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Medicine.\+medicine\+To\+Byte\+Array\+Block()}}, and \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_supplier_afba177fb9d808aa5157203709401032e}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Supplier.\+supplier\+To\+Byte\+Array\+Block()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_conversion_utility_ab0ff4b89697d8bd6cc3b3a1141a86e3d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_conversion_utility_a8bd24b999f7e26107c34ebd6bb93ee17}\label{classce103__hw4__medical__store__lib_1_1_conversion_utility_a8bd24b999f7e26107c34ebd6bb93ee17}} 
+\index{ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}!toAscii@{toAscii}}
+\index{toAscii@{toAscii}!ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}}
+\doxyparagraph{\texorpdfstring{toAscii()}{toAscii()}}
+{\footnotesize\ttfamily static String ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Conversion\+Utility.\+to\+Ascii (\begin{DoxyParamCaption}\item[{String}]{hex\+String }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Converts a hexadecimal string to an ASCII string.
+
+
+\begin{DoxyParams}{Parameters}
+{\em hex\+String} & The hexadecimal string to convert. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An ASCII string representing the input hexadecimal string. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_conversion_utility_a2dca509fcb65ae54b90e0d235d29764f}\label{classce103__hw4__medical__store__lib_1_1_conversion_utility_a2dca509fcb65ae54b90e0d235d29764f}} 
+\index{ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}!toByte@{toByte}}
+\index{toByte@{toByte}!ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}}
+\doxyparagraph{\texorpdfstring{toByte()}{toByte()}}
+{\footnotesize\ttfamily static Byte\mbox{[}$\,$\mbox{]} ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Conversion\+Utility.\+to\+Byte (\begin{DoxyParamCaption}\item[{String}]{hex\+String }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Converts a hexadecimal string to an array of bytes. 
+\begin{DoxyParams}{Parameters}
+{\em hex\+String} & A string containing hexadecimal digits. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An array of bytes representing the integer values of the hexadecimal digits in the input string. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_conversion_utility_a27d9fa6416a1f6e1591d89606f414613}\label{classce103__hw4__medical__store__lib_1_1_conversion_utility_a27d9fa6416a1f6e1591d89606f414613}} 
+\index{ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}!toByteArray@{toByteArray}}
+\index{toByteArray@{toByteArray}!ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}}
+\doxyparagraph{\texorpdfstring{toByteArray()}{toByteArray()}}
+{\footnotesize\ttfamily static Byte\mbox{[}$\,$\mbox{]} ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Conversion\+Utility.\+to\+Byte\+Array (\begin{DoxyParamCaption}\item[{String}]{hex\+String }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Converts a hexadecimal string to an array of bytes. 
+\begin{DoxyParams}{Parameters}
+{\em hex\+String} & The hexadecimal string to be converted. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An array of bytes representing the hexadecimal string. 
+\end{DoxyReturn}
+
+
+Referenced by \mbox{\hyperlink{classce103__hw4__medical__store__lib_1_1_conversion_utility_a680cc8121a838814f3edc6d8a3b77ce4}{ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Conversion\+Utility.\+is\+Hex()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classce103__hw4__medical__store__lib_1_1_conversion_utility_a27d9fa6416a1f6e1591d89606f414613_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classce103__hw4__medical__store__lib_1_1_conversion_utility_a4c601b0965c9d01ba331da898316f372}\label{classce103__hw4__medical__store__lib_1_1_conversion_utility_a4c601b0965c9d01ba331da898316f372}} 
+\index{ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}!toHex@{toHex}}
+\index{toHex@{toHex}!ce103\_hw4\_medical\_store\_lib.ConversionUtility@{ce103\_hw4\_medical\_store\_lib.ConversionUtility}}
+\doxyparagraph{\texorpdfstring{toHex()}{toHex()}}
+{\footnotesize\ttfamily static String ce103\+\_\+hw4\+\_\+medical\+\_\+store\+\_\+lib.\+Conversion\+Utility.\+to\+Hex (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{arr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Converts an array of bytes to a hexadecimal string. 
+\begin{DoxyParams}{Parameters}
+{\em arr} & An array of bytes. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A hexadecimal string representing the integer values of the bytes in the input array. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_conversion_utility_8java}{Conversion\+Utility.\+java}}\end{DoxyCompactItemize}
