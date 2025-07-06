@@ -6,6 +6,7 @@ Bu proje, bir eczane (medical store) yönetim sistemi geliştirmek amacıyla haz
 
 ## 🗂️ Proje Yapısı
 
+```bash
 Medical-Store-Application/
 ├── ce103_hw4_medical_store_app/       → GUI tabanlı Java uygulaması  
 │   └── src/ce103_hw4_medical_store_app/
@@ -19,6 +20,7 @@ Medical-Store-Application/
 ├── doxyfile_dev                        → Doxygen yapılandırma dosyası  
 ├── doxygen_log.txt                    → Belgeler oluşturulurken oluşan loglar  
 └── README.md                          → Proje hakkında bilgiler
+```
 
 ---
 
